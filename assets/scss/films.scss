@@ -1,0 +1,83 @@
+.new-films {
+    &-row  {
+        margin-right: -7.5px;
+        margin-bottom: -15px;
+        margin-left: -7.5px;
+    }
+
+    &-item {
+      
+        &__thumbnail{
+            &:hover {
+                border-color: #df8a13;
+                background-color: #df8a13;
+                color: $color-primary;
+                }
+        }
+    }
+    
+
+    &-item__title {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+
+    &:hover {
+        color: #ffffff;
+    }
+    }
+
+}
+
+.top-week {
+    &-row  {
+        margin-right: -7.5px;
+        margin-bottom: -15px;
+        margin-left: -7.5px;
+    }
+
+    &-item {
+      
+        &__thumbnail{
+            &:hover {
+                border-color: #df8a13;
+                background-color: #df8a13;
+                color: $color-primary;
+                }
+        }
+    }
+    
+
+    &-item__title {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+
+    &:hover {
+        color: #ffffff;
+    }
+    }
+}
+
+.film-news {
+    &-item {
+        &__text {
+            text-align: justify;
+        }
+
+        &__button {
+            float: right;
+            margin-bottom: 30px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.film {
+    &-info{
+        &__badge{
+            font-size: 0.8em;
+        }
+
+
+        &__wrapper{
+            white-space: nowrap;
+
+            &:not(:last-of-type){
+                margin-right: 15px;
+            }
+        }
+    }
+    &-comment{
+        &-form{
+            &__button{
+                float: right;
+            }
+        }
+    }
+}
+
+.footer{
+    padding-top: 45px;
+    color: #fbfbfb;
+    background-color: #232323;
+
+    a{
+        color: #777777;
+    }
+
+}
